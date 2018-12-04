@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // !!!!!----- MY CHAT APPLICATION ------ !!!!!
+            // Connect to the web socket.
+            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port);
+            var username = '{{ username }}';
+
+            // Emits a new event that tells thde server that a user has connected.
+            socket.on('connect', () => {
+                socket.emit('user connected', `${username} has connected`);
+            });
+
+            // Gets the response from the server, and adds the data(the string that we sent earlier) to the chat.
+            socket.on('announce user', data => {
+                const li = document.createElement('li');
+                li.innerHTML = data;
+                document.querySelector('#chat').append(li);
+            });
+
+            // Each message should submit a "submit message" event.
+            if (document.querySelector('#message').value.length > 0)
+                document.querySelector('#submit').disabled = false;
+            else
+                document.querySelector('#submit').disabled = true;
+            document.querySelector('#message').onkeyup = () => {
+                if (document.querySelector('#message').value.length > 0)
+                    document.querySelector('#submit').disabled = false;
+                else
+                    document.querySelector('#submit').disabled = true;
+            };
+
+            // Sends the message to the server.
+            document.querySelector('#chat_form').onsubmit = () => {
+                const message = document.querySelector('#message').value;
+                socket.emit('submit message', {'message': message});
+                document.querySelector('#message').value = '';
+                return false;
+            };
+
+            // Adds the message to the chat list.
+            socket.on('post message', data => {
+                current_time = new Date().toLocaleTimeString();
+                const li = document.createElement('li');
+                // The Message that will be displayed:
+                li.innerHTML = `${current_time}, ${username}: ${data.message}`;
+                document.querySelector('#chat').append(li);
+            });
+
+        });
+    </script>
+
+    <title>ChatApp !</title>
+
+</head>
+<body>
+    <h1>ChatApp !</h1>
+    <p>Chat messages</p>
+    <ul id="chat">
+    </ul>
+    <form id="form">
+        <input type="text" id="message" placeholder="Write a Message...">
+        <input type="submit" id="submit" value="Post">
+    </form>
+</body>
+</html>

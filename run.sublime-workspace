@@ -1,0 +1,456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"book_",
+				"book_num"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"bok",
+				"book_num"
+			],
+			[
+				"date",
+				"date_posted"
+			],
+			[
+				"book",
+				"book_num"
+			],
+			[
+				"config",
+				"config_class"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"title",
+				"title_2"
+			],
+			[
+				"has",
+				"hashed_pw"
+			],
+			[
+				"res",
+				"reset_token"
+			],
+			[
+				"fil",
+				"filter_by"
+			],
+			[
+				"rese",
+				"reset_request"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"border-",
+				"border-style\tproperty"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"new",
+				"new_post"
+			],
+			[
+				"da",
+				"DataRequired"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"picture",
+				"picture_file"
+			],
+			[
+				"save",
+				"save_picture"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"b",
+				"bcrypt"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"over",
+				"overflow\tproperty"
+			],
+			[
+				"inline",
+				"inline-grid\tdisplay"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"Python",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/nahum/Desktop/project2/application.py",
+		"/C/Users/nahum/Desktop/src5/vote1/application.py",
+		"/C/Users/nahum/Desktop/src5/vote1/static/index.js",
+		"/C/Users/nahum/Desktop/project1/flaskblog/run.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/__init__.py",
+		"/C/Users/nahum/Desktop/chat/index.html",
+		"/C/Users/nahum/Desktop/chat/index.js",
+		"/C/Users/nahum/Desktop/src5/currency/templates/index.html",
+		"/C/Users/nahum/Desktop/src5/currency/static/index.js",
+		"/C/Users/nahum/Desktop/src5/currency/application.py",
+		"/C/Users/nahum/Desktop/javascript/Hello, World.html",
+		"/C/Users/nahum/Desktop/javascript/js.js",
+		"/C/Users/nahum/Desktop/src5/storage.html",
+		"/C/Users/nahum/Desktop/src5/counter2.html",
+		"/C/Users/nahum/Desktop/src5/counter3.js",
+		"/C/Users/nahum/Desktop/src5/counter3.html",
+		"/C/Users/nahum/Desktop/src5/tasks2.html",
+		"/C/Users/nahum/Desktop/javascript/a.py",
+		"/C/Users/nahum/Desktop/src5/tasks1.html",
+		"/C/Users/nahum/Desktop/src5/tasks0.html",
+		"/C/Users/nahum/Desktop/src5/hello1.html",
+		"/C/Users/nahum/Desktop/src5/colors2.html",
+		"/C/Users/nahum/Desktop/src5/variables2.html",
+		"/C/Users/nahum/Desktop/src5/variables1.html",
+		"/C/Users/nahum/Desktop/src5/hello0.html",
+		"/C/Users/nahum/Desktop/src5/colors0.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/config.py",
+		"/C/Users/nahum/Desktop/src5/counter1.html",
+		"/C/Users/nahum/Desktop/src5/colors1.html",
+		"/C/Users/nahum/Desktop/src5/interval.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/home.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/posts/routes.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/users/routes.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/layout.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/main/routes.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/app.yaml",
+		"/C/Users/nahum/Desktop/project1/flaskblog/models.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/static/main.css",
+		"/C/Users/nahum/Desktop/src3/airline0/application.py",
+		"/C/Users/nahum/Desktop/src3/airline0/templates/index.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/user_posts.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/book.html",
+		"/C/Users/nahum/Desktop/j.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/column.py",
+		"/C/Users/nahum/Desktop/src4/airline5/application.py",
+		"/C/Users/nahum/Desktop/src4/classes5.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/users/__init__.py",
+		"/C/Users/nahum/Desktop/src4/airline4/application.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/post.html",
+		"/C/Users/nahum/Desktop/src4/airline5/models.py",
+		"/C/Users/nahum/Desktop/form- practice.html",
+		"/C/Users/nahum/Desktop/src3/airline1/application.py",
+		"/C/Users/nahum/Desktop/src3/airline1/templates/flight.html",
+		"/C/Users/nahum/Desktop/src3/airline1/templates/flights.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/posts/forms.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/import.py",
+		"/C/Users/nahum/Desktop/src4/currency0.py",
+		"/C/Users/nahum/Desktop/src4/currency1.py",
+		"/C/Users/nahum/Desktop/src4/create.py",
+		"/C/Users/nahum/Desktop/src4/passengers1.py",
+		"/C/Users/nahum/Desktop/src4/models.py",
+		"/C/Users/nahum/Desktop/src4/import1.py",
+		"/C/Users/nahum/Desktop/src4/classes4.py",
+		"/C/Users/nahum/Desktop/hw.py",
+		"/C/Users/nahum/Desktop/server_template.py",
+		"/C/Users/nahum/Desktop/client_template.py",
+		"/C/Users/nahum/Desktop/Firstserver.py",
+		"/C/Users/nahum/Desktop/ccc.py",
+		"/C/Users/nahum/Desktop/wordcount.py",
+		"/C/Users/nahum/Desktop/importsocket.py",
+		"/C/Users/nahum/Desktop/1.py",
+		"/C/Users/nahum/Desktop/arch.py",
+		"/C/Users/nahum/Desktop/c.py",
+		"/C/Users/nahum/Desktop/x.py",
+		"/C/Users/nahum/Desktop/text.py",
+		"/C/Users/nahum/Desktop/he.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/results.html",
+		"/C/Users/nahum/Desktop/src3/passengers.py",
+		"/C/Users/nahum/Desktop/src3/list.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/new_post.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/search.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/add.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/users/forms.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/register.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/error.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/login.html",
+		"/C/Users/nahum/Desktop/project1/books.csv",
+		"/C/Users/nahum/Desktop/project1/sql.py",
+		"/C/Users/nahum/Desktop/src3/import.py",
+		"/C/Users/nahum/Desktop/project1/CSV.py",
+		"/C/Users/nahum/Desktop/src3/notes/application.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/application.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/ccc.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/errors/500.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/errors/403.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/errors/404.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/errors/handlers.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/errors",
+		"/C/Users/nahum/Desktop/project1/requirements.txt",
+		"/C/Users/nahum/Desktop/project1/flaskblog/users/utils.py",
+		"/C/Users/nahum/Desktop/ccc",
+		"/C/Users/nahum/Desktop/project1/run.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/posts/__init__.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/routes.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/forms.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/main/__init__.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/posts",
+		"/C/Users/nahum/Desktop/practice.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/reset_request.html",
+		"/C/Users/nahum/Desktop/11.html",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/reset_token.html",
+		"/C/Users/nahum/AppData/Local/Temp/Rar$DIa7060.7830/__init__.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog/templates/account.html",
+		"/C/Users/nahum/Desktop/socket.py",
+		"/C/Users/nahum/Desktop/project1/flaskblog.py",
+		"/C/Users/nahum/Desktop/project1/static/main.css",
+		"/C/Users/nahum/Desktop/project1/templates/layout.html",
+		"/C/Users/nahum/Desktop/project1/forms.py",
+		"/C/Users/nahum/Desktop/project1/templates/login.html",
+		"/C/Users/nahum/Desktop/project1/templates/register.html",
+		"/C/Users/nahum/Desktop/html.html",
+		"/C/Users/nahum/AppData/Roaming/Sublime Text 3/Packages/User/Python3.7.sublime-build",
+		"/C/Users/nahum/AppData/Roaming/Sublime Text 3/Packages/User/Python2.7.sublime-build",
+		"/C/Users/nahum/Desktop/project1/templates/home.html",
+		"/C/Users/nahum/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/nahum/Desktop/logo_data.cyber.org.il",
+		"/C/Users/nahum/Desktop/project0/mystyle1",
+		"/C/Users/nahum/Desktop/project0/index.html"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 167.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 73.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Python3.7.sublime-build",
+	"project": "run.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
